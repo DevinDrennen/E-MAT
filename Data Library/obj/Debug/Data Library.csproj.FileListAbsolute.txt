@@ -1,0 +1,174 @@
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\Data Library\bin\Debug\Data Library.dll
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\Data Library\bin\Debug\Data Library.pdb
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\Data Library\obj\Debug\Data Library.csprojResolveAssemblyReference.cache
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\Data Library\obj\Debug\Data Library.dll
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\Data Library\obj\Debug\Data Library.pdb
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\Data Library\bin\Debug\Math Library.dll
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\Data Library\bin\Debug\Parallel_Math_Library.dll
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\Data Library\bin\Debug\Sensor Library.dll
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\Data Library\bin\Debug\FSharp.PowerPack.dll
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\Data Library\bin\Debug\Math Library.pdb
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\Data Library\bin\Debug\Parallel_Math_Library.pdb
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\Data Library\bin\Debug\Parallel_Math_Library.xml
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\Data Library\bin\Debug\Sensor Library.pdb
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\Data Library\bin\Debug\FSharp.PowerPack.pdb
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\Data Library\bin\Debug\FSharp.PowerPack.xml
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\Data Library.dll.config
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\Data Library.dll
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\Data Library.pdb
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\Math Library.dll
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\OxyPlot.dll
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\OxyPlot.WindowsForms.dll
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\OxyPlot.Wpf.dll
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\OxyPlot.Xps.dll
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\Parallel_Math_Library.dll
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\Sensor Library.dll
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\Xceed.Wpf.DataGrid.dll
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\MathNet.Numerics.dll
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\FSharp.PowerPack.dll
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\Math Library.pdb
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\Parallel_Math_Library.pdb
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\Parallel_Math_Library.xml
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\Sensor Library.pdb
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\OxyPlot.pdb
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\OxyPlot.xml
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\OxyPlot.WindowsForms.pdb
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\OxyPlot.WindowsForms.xml
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\OxyPlot.Wpf.pdb
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\OxyPlot.Wpf.xml
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\OxyPlot.Xps.pdb
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\OxyPlot.Xps.xml
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\MathNet.Numerics.xml
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Documents\E-MAT\Data Library\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Documents\E-MAT\Data Library\obj\Debug\Data Library.csprojResolveAssemblyReference.cache
+C:\Users\drennend\Documents\E-MAT\Data Library\obj\Debug\Data Library.dll
+C:\Users\drennend\Documents\E-MAT\Data Library\obj\Debug\Data Library.pdb
+C:\Users\Devin\Documents\E-MAT\Data Library\obj\Debug\Data Library.csprojResolveAssemblyReference.cache
+C:\Users\Devin\Documents\E-MAT\Data Library\bin\Debug\Data Library.dll.config
+C:\Users\Devin\Documents\E-MAT\Data Library\bin\Debug\Data Library.dll
+C:\Users\Devin\Documents\E-MAT\Data Library\bin\Debug\Data Library.pdb
+C:\Users\Devin\Documents\E-MAT\Data Library\bin\Debug\Math Library.dll
+C:\Users\Devin\Documents\E-MAT\Data Library\bin\Debug\OxyPlot.dll
+C:\Users\Devin\Documents\E-MAT\Data Library\bin\Debug\OxyPlot.WindowsForms.dll
+C:\Users\Devin\Documents\E-MAT\Data Library\bin\Debug\OxyPlot.Wpf.dll
+C:\Users\Devin\Documents\E-MAT\Data Library\bin\Debug\OxyPlot.Xps.dll
+C:\Users\Devin\Documents\E-MAT\Data Library\bin\Debug\Parallel_Math_Library.dll
+C:\Users\Devin\Documents\E-MAT\Data Library\bin\Debug\Sensor Library.dll
+C:\Users\Devin\Documents\E-MAT\Data Library\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\Devin\Documents\E-MAT\Data Library\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\Devin\Documents\E-MAT\Data Library\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\Devin\Documents\E-MAT\Data Library\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\Devin\Documents\E-MAT\Data Library\bin\Debug\Xceed.Wpf.DataGrid.dll
+C:\Users\Devin\Documents\E-MAT\Data Library\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\Devin\Documents\E-MAT\Data Library\bin\Debug\Math Library.pdb
+C:\Users\Devin\Documents\E-MAT\Data Library\bin\Debug\Parallel_Math_Library.pdb
+C:\Users\Devin\Documents\E-MAT\Data Library\bin\Debug\Parallel_Math_Library.xml
+C:\Users\Devin\Documents\E-MAT\Data Library\bin\Debug\Sensor Library.pdb
+C:\Users\Devin\Documents\E-MAT\Data Library\bin\Debug\OxyPlot.pdb
+C:\Users\Devin\Documents\E-MAT\Data Library\bin\Debug\OxyPlot.xml
+C:\Users\Devin\Documents\E-MAT\Data Library\bin\Debug\OxyPlot.WindowsForms.pdb
+C:\Users\Devin\Documents\E-MAT\Data Library\bin\Debug\OxyPlot.WindowsForms.xml
+C:\Users\Devin\Documents\E-MAT\Data Library\bin\Debug\OxyPlot.Wpf.pdb
+C:\Users\Devin\Documents\E-MAT\Data Library\bin\Debug\OxyPlot.Wpf.xml
+C:\Users\Devin\Documents\E-MAT\Data Library\bin\Debug\OxyPlot.Xps.pdb
+C:\Users\Devin\Documents\E-MAT\Data Library\bin\Debug\OxyPlot.Xps.xml
+C:\Users\Devin\Documents\E-MAT\Data Library\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Devin\Documents\E-MAT\Data Library\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Devin\Documents\E-MAT\Data Library\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Devin\Documents\E-MAT\Data Library\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Devin\Documents\E-MAT\Data Library\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Devin\Documents\E-MAT\Data Library\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Devin\Documents\E-MAT\Data Library\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Devin\Documents\E-MAT\Data Library\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Devin\Documents\E-MAT\Data Library\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Devin\Documents\E-MAT\Data Library\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Devin\Documents\E-MAT\Data Library\obj\Debug\Data Library.dll
+C:\Users\Devin\Documents\E-MAT\Data Library\obj\Debug\Data Library.pdb
+B:\User Files\Omar\BitBucket\emat\Data Library\bin\Debug\Data Library.dll.config
+B:\User Files\Omar\BitBucket\emat\Data Library\bin\Debug\Data Library.dll
+B:\User Files\Omar\BitBucket\emat\Data Library\bin\Debug\Data Library.pdb
+B:\User Files\Omar\BitBucket\emat\Data Library\bin\Debug\Math Library.dll
+B:\User Files\Omar\BitBucket\emat\Data Library\bin\Debug\OxyPlot.dll
+B:\User Files\Omar\BitBucket\emat\Data Library\bin\Debug\OxyPlot.WindowsForms.dll
+B:\User Files\Omar\BitBucket\emat\Data Library\bin\Debug\OxyPlot.Wpf.dll
+B:\User Files\Omar\BitBucket\emat\Data Library\bin\Debug\OxyPlot.Xps.dll
+B:\User Files\Omar\BitBucket\emat\Data Library\bin\Debug\Parallel_Math_Library.dll
+B:\User Files\Omar\BitBucket\emat\Data Library\bin\Debug\Sensor Library.dll
+B:\User Files\Omar\BitBucket\emat\Data Library\bin\Debug\Xceed.Wpf.AvalonDock.dll
+B:\User Files\Omar\BitBucket\emat\Data Library\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+B:\User Files\Omar\BitBucket\emat\Data Library\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+B:\User Files\Omar\BitBucket\emat\Data Library\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+B:\User Files\Omar\BitBucket\emat\Data Library\bin\Debug\Xceed.Wpf.DataGrid.dll
+B:\User Files\Omar\BitBucket\emat\Data Library\bin\Debug\Xceed.Wpf.Toolkit.dll
+B:\User Files\Omar\BitBucket\emat\Data Library\bin\Debug\Math Library.pdb
+B:\User Files\Omar\BitBucket\emat\Data Library\bin\Debug\Parallel_Math_Library.pdb
+B:\User Files\Omar\BitBucket\emat\Data Library\bin\Debug\Parallel_Math_Library.xml
+B:\User Files\Omar\BitBucket\emat\Data Library\bin\Debug\Sensor Library.pdb
+B:\User Files\Omar\BitBucket\emat\Data Library\bin\Debug\OxyPlot.xml
+B:\User Files\Omar\BitBucket\emat\Data Library\bin\Debug\OxyPlot.WindowsForms.xml
+B:\User Files\Omar\BitBucket\emat\Data Library\bin\Debug\OxyPlot.Wpf.xml
+B:\User Files\Omar\BitBucket\emat\Data Library\bin\Debug\OxyPlot.Xps.xml
+B:\User Files\Omar\BitBucket\emat\Data Library\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+B:\User Files\Omar\BitBucket\emat\Data Library\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+B:\User Files\Omar\BitBucket\emat\Data Library\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+B:\User Files\Omar\BitBucket\emat\Data Library\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+B:\User Files\Omar\BitBucket\emat\Data Library\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+B:\User Files\Omar\BitBucket\emat\Data Library\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+B:\User Files\Omar\BitBucket\emat\Data Library\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+B:\User Files\Omar\BitBucket\emat\Data Library\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+B:\User Files\Omar\BitBucket\emat\Data Library\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+B:\User Files\Omar\BitBucket\emat\Data Library\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+B:\User Files\Omar\BitBucket\emat\Data Library\obj\Debug\Data Library.csprojResolveAssemblyReference.cache
+B:\User Files\Omar\BitBucket\emat\Data Library\obj\Debug\Data Library.dll
+B:\User Files\Omar\BitBucket\emat\Data Library\obj\Debug\Data Library.pdb
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\Data Library\bin\Debug\Data Library.dll.config
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\Data Library\bin\Debug\Data Library.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\Data Library\bin\Debug\Data Library.pdb
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\Data Library\bin\Debug\Math Library.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\Data Library\bin\Debug\OxyPlot.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\Data Library\bin\Debug\OxyPlot.WindowsForms.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\Data Library\bin\Debug\OxyPlot.Wpf.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\Data Library\bin\Debug\OxyPlot.Xps.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\Data Library\bin\Debug\Sensor Library.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\Data Library\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\Data Library\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\Data Library\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\Data Library\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\Data Library\bin\Debug\Xceed.Wpf.DataGrid.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\Data Library\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\Data Library\bin\Debug\Math Library.pdb
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\Data Library\bin\Debug\Sensor Library.pdb
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\Data Library\bin\Debug\OxyPlot.xml
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\Data Library\bin\Debug\OxyPlot.WindowsForms.xml
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\Data Library\bin\Debug\OxyPlot.Wpf.xml
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\Data Library\bin\Debug\OxyPlot.Xps.xml
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\Data Library\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\Data Library\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\Data Library\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\Data Library\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\Data Library\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\Data Library\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\Data Library\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\Data Library\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\Data Library\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\Data Library\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\Data Library\obj\Debug\Data Library.csprojResolveAssemblyReference.cache
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\Data Library\obj\Debug\Data Library.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\Data Library\obj\Debug\Data Library.pdb
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\Data Library\bin\Debug\OxyPlot.WindowsForms.pdb
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\Data Library\bin\Debug\OxyPlot.Wpf.pdb
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\Data Library\bin\Debug\OxyPlot.Xps.pdb

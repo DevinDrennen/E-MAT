@@ -1,0 +1,27 @@
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\bin\Debug\EMAT 3.0.exe.config
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\bin\Debug\EMAT 3.0.exe
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\bin\Debug\EMAT 3.0.pdb
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\obj\Debug\EMAT 3.0.csprojResolveAssemblyReference.cache
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\obj\Debug\App.g.cs
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\obj\Debug\EMAT 3.0_MarkupCompile.cache
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\obj\Debug\EMAT 3.0.g.resources
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\obj\Debug\EMAT_3._0.Properties.Resources.resources
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\obj\Debug\EMAT 3.0.csproj.GenerateResource.Cache
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\obj\Debug\EMAT 3.0.exe
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\obj\Debug\EMAT 3.0.pdb
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\obj\Debug\Windows\EMAT.baml
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\obj\Debug\Windows\EMAT.g.cs
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\bin\Debug\Data Library.dll
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\bin\Debug\Math Library.dll
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\bin\Debug\Parallel_Math_Library.dll
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\bin\Debug\Sensor Library.dll
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\bin\Debug\FSharp.PowerPack.dll
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\bin\Debug\Data Library.pdb
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\bin\Debug\Math Library.pdb
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\bin\Debug\Parallel_Math_Library.pdb
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\bin\Debug\Parallel_Math_Library.xml
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\bin\Debug\Sensor Library.pdb
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\bin\Debug\FSharp.PowerPack.pdb
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\bin\Debug\FSharp.PowerPack.xml
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\obj\Debug\Windows\About.baml
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\obj\Debug\Windows\About.g.cs

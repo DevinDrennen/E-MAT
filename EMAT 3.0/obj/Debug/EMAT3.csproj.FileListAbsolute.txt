@@ -1,0 +1,273 @@
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\bin\Debug\EMAT 3.0.exe.config
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\bin\Debug\EMAT 3.0.exe
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\bin\Debug\EMAT 3.0.pdb
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\bin\Debug\Data Library.dll
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\bin\Debug\Math Library.dll
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\bin\Debug\Parallel_Math_Library.dll
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\bin\Debug\Sensor Library.dll
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\bin\Debug\FSharp.PowerPack.dll
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\bin\Debug\Data Library.pdb
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\bin\Debug\Math Library.pdb
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\bin\Debug\Parallel_Math_Library.pdb
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\bin\Debug\Parallel_Math_Library.xml
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\bin\Debug\Sensor Library.pdb
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\bin\Debug\FSharp.PowerPack.pdb
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\bin\Debug\FSharp.PowerPack.xml
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\obj\Debug\App.g.cs
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\obj\Debug\EMAT 3.0_MarkupCompile.cache
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\obj\Debug\EMAT 3.0.g.resources
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\obj\Debug\EMAT3.csproj.GenerateResource.Cache
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\obj\Debug\EMAT 3.0.exe
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\obj\Debug\EMAT 3.0.pdb
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\obj\Debug\EMAT3.csprojResolveAssemblyReference.cache
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\bin\Debug\OxyPlot.dll
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\bin\Debug\OxyPlot.Wpf.dll
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\bin\Debug\OxyPlot.WindowsForms.dll
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\obj\Debug\EMAT3.Windows.Utilities.GraphForm.resources
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\obj\Debug\Windows\Core\About.baml
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\obj\Debug\Windows\Core\EMAT.baml
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\obj\Debug\Windows\Core\About.g.cs
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\obj\Debug\Windows\Core\EMAT.g.cs
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\obj\Debug\EMAT3.Properties.Resources.resources
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\obj\Debug\EMAT3.Windows.Utitlities.NodeDataDisplay.resources
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\obj\Debug\EMAT3.Windows.Utitlities.NodeTest.resources
+B:\User Files\Omar\Dropbox\School\College\Sophmore\Spring\EGR280 - EMAT\EMAT 3.0\EMAT 3.0\obj\Debug\EMAT3.Windows.Exercises.Acceleration.resources
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\EMAT 3.0.exe.config
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\EMAT 3.0.exe
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\EMAT 3.0.pdb
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\Data Library.dll
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\Math Library.dll
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\OxyPlot.dll
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\OxyPlot.WindowsForms.dll
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\OxyPlot.Wpf.dll
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\OxyPlot.Xps.dll
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\Parallel_Math_Library.dll
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\Sensor Library.dll
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\Xceed.Wpf.DataGrid.dll
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\MathNet.Numerics.dll
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\FSharp.PowerPack.dll
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\Data Library.pdb
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\Math Library.pdb
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\Parallel_Math_Library.pdb
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\Parallel_Math_Library.xml
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\Sensor Library.pdb
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\OxyPlot.pdb
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\OxyPlot.xml
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\OxyPlot.WindowsForms.pdb
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\OxyPlot.WindowsForms.xml
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\OxyPlot.Wpf.pdb
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\OxyPlot.Wpf.xml
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\OxyPlot.Xps.pdb
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\OxyPlot.Xps.xml
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\MathNet.Numerics.xml
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\obj\Debug\EMAT3.csprojResolveAssemblyReference.cache
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\obj\Debug\Windows\Core\About.baml
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\obj\Debug\Windows\Core\EMAT.baml
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\obj\Debug\Windows\Exercises\TremorDetection.baml
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\obj\Debug\Windows\Exercises\Collect.baml
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\obj\Debug\Windows\Core\About.g.cs
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\obj\Debug\Windows\Core\EMAT.g.cs
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\obj\Debug\Windows\Exercises\TremorDetection.g.cs
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\obj\Debug\Windows\Exercises\Collect.g.cs
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\obj\Debug\App.g.cs
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\obj\Debug\EMAT 3.0_MarkupCompile.cache
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\obj\Debug\EMAT 3.0.g.resources
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\obj\Debug\EMAT3.Properties.Resources.resources
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\obj\Debug\EMAT3.Windows.Exercises.Acceleration.resources
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\obj\Debug\EMAT3.Windows.Utilities.GraphForm.resources
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\obj\Debug\EMAT3.Windows.Utitlities.NodeDataDisplay.resources
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\obj\Debug\EMAT3.Windows.Utitlities.NodeTest.resources
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\obj\Debug\EMAT3.csproj.GenerateResource.Cache
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\obj\Debug\EMAT 3.0.exe
+C:\Users\drennend\Documents\E-MAT\EMAT 3.0\obj\Debug\EMAT 3.0.pdb
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\bin\Debug\EMAT 3.0.exe.config
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\obj\Debug\EMAT3.csprojResolveAssemblyReference.cache
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\obj\Debug\Windows\Core\About.baml
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\obj\Debug\Windows\Core\EMAT.baml
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\obj\Debug\Windows\Exercises\Collect.baml
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\obj\Debug\Windows\Core\About.g.cs
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\obj\Debug\Windows\Core\EMAT.g.cs
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\obj\Debug\Windows\Exercises\Collect.g.cs
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\obj\Debug\App.g.cs
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\obj\Debug\EMAT 3.0_MarkupCompile.cache
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\obj\Debug\Windows\Exercises\TremorDetection.baml
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\obj\Debug\Windows\Exercises\TremorDetection.g.cs
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\obj\Debug\EMAT 3.0.g.resources
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\obj\Debug\EMAT3.Properties.Resources.resources
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\obj\Debug\EMAT3.Windows.Exercises.Acceleration.resources
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\obj\Debug\EMAT3.Windows.Utilities.GraphForm.resources
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\obj\Debug\EMAT3.Windows.Utitlities.NodeDataDisplay.resources
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\obj\Debug\EMAT3.Windows.Utitlities.NodeTest.resources
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\obj\Debug\EMAT3.csproj.GenerateResource.Cache
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\bin\Debug\EMAT 3.0.exe
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\bin\Debug\EMAT 3.0.pdb
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\bin\Debug\Data Library.dll
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\bin\Debug\Math Library.dll
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\bin\Debug\OxyPlot.dll
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\bin\Debug\OxyPlot.WindowsForms.dll
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\bin\Debug\OxyPlot.Wpf.dll
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\bin\Debug\OxyPlot.Xps.dll
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\bin\Debug\Parallel_Math_Library.dll
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\bin\Debug\Sensor Library.dll
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\bin\Debug\Xceed.Wpf.DataGrid.dll
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\bin\Debug\Data Library.pdb
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\bin\Debug\Math Library.pdb
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\bin\Debug\Parallel_Math_Library.pdb
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\bin\Debug\Parallel_Math_Library.xml
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\bin\Debug\Sensor Library.pdb
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\bin\Debug\OxyPlot.pdb
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\bin\Debug\OxyPlot.xml
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\bin\Debug\OxyPlot.WindowsForms.pdb
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\bin\Debug\OxyPlot.WindowsForms.xml
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\bin\Debug\OxyPlot.Wpf.pdb
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\bin\Debug\OxyPlot.Wpf.xml
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\bin\Debug\OxyPlot.Xps.pdb
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\bin\Debug\OxyPlot.Xps.xml
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\obj\Debug\EMAT 3.0.exe
+C:\Users\Devin\Documents\E-MAT\EMAT 3.0\obj\Debug\EMAT 3.0.pdb
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\bin\Debug\EMAT 3.0.exe.config
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\obj\Debug\EMAT 3.0.exe
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\bin\Debug\EMAT 3.0.exe
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\bin\Debug\EMAT 3.0.pdb
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\bin\Debug\Data Library.dll
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\bin\Debug\Math Library.dll
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\bin\Debug\OxyPlot.dll
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\bin\Debug\OxyPlot.WindowsForms.dll
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\bin\Debug\OxyPlot.Wpf.dll
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\bin\Debug\OxyPlot.Xps.dll
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\bin\Debug\Parallel_Math_Library.dll
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\bin\Debug\Sensor Library.dll
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\bin\Debug\Xceed.Wpf.AvalonDock.dll
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\bin\Debug\Xceed.Wpf.DataGrid.dll
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\bin\Debug\Xceed.Wpf.Toolkit.dll
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\bin\Debug\Data Library.pdb
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\bin\Debug\Math Library.pdb
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\bin\Debug\Parallel_Math_Library.pdb
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\bin\Debug\Parallel_Math_Library.xml
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\bin\Debug\Sensor Library.pdb
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\bin\Debug\OxyPlot.xml
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\bin\Debug\OxyPlot.WindowsForms.xml
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\bin\Debug\OxyPlot.Wpf.xml
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\bin\Debug\OxyPlot.Xps.xml
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\obj\Debug\EMAT3.csprojResolveAssemblyReference.cache
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\obj\Debug\Windows\Core\About.baml
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\obj\Debug\Windows\Core\EMAT.baml
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\obj\Debug\Windows\Exercises\TremorDetection.baml
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\obj\Debug\Windows\Exercises\Collect.baml
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\obj\Debug\Windows\Core\About.g.cs
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\obj\Debug\Windows\Core\EMAT.g.cs
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\obj\Debug\Windows\Exercises\TremorDetection.g.cs
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\obj\Debug\Windows\Exercises\Collect.g.cs
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\obj\Debug\App.g.cs
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\obj\Debug\EMAT 3.0_MarkupCompile.cache
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\obj\Debug\EMAT 3.0.g.resources
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\obj\Debug\EMAT3.Properties.Resources.resources
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\obj\Debug\EMAT3.Windows.Exercises.Acceleration.resources
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\obj\Debug\EMAT3.Windows.Utilities.GraphForm.resources
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\obj\Debug\EMAT3.Windows.Utitlities.NodeDataDisplay.resources
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\obj\Debug\EMAT3.Windows.Utitlities.NodeTest.resources
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\obj\Debug\EMAT3.csproj.GenerateResource.Cache
+B:\User Files\Omar\BitBucket\emat\EMAT 3.0\obj\Debug\EMAT 3.0.pdb
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\EMAT 3.0.exe.config
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\EMAT 3.0.exe
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\EMAT 3.0.exe
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\EMAT 3.0.pdb
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\Data Library.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\Math Library.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\OxyPlot.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\OxyPlot.WindowsForms.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\OxyPlot.Wpf.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\OxyPlot.Xps.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\Sensor Library.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\Xceed.Wpf.DataGrid.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\Data Library.pdb
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\Math Library.pdb
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\Sensor Library.pdb
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\OxyPlot.xml
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\OxyPlot.WindowsForms.xml
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\OxyPlot.Wpf.xml
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\OxyPlot.Xps.xml
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\EMAT3.csprojResolveAssemblyReference.cache
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\Windows\Core\About.baml
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\Windows\Core\EMAT.baml
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\Windows\Exercises\TremorDetection.baml
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\Windows\Exercises\Collect.baml
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\Windows\Core\About.g.cs
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\Windows\Core\EMAT.g.cs
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\Windows\Exercises\TremorDetection.g.cs
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\Windows\Exercises\Collect.g.cs
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\App.g.cs
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\EMAT 3.0_MarkupCompile.cache
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\EMAT 3.0.g.resources
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\EMAT3.Properties.Resources.resources
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\EMAT3.Windows.Utilities.GraphForm.resources
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\EMAT3.Windows.Utitlities.NodeDataDisplay.resources
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\EMAT3.Windows.Utitlities.NodeTest.resources
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\EMAT3.csproj.GenerateResource.Cache
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\EMAT 3.0.pdb
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\EMAT 3.0.exe.manifest
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\EMAT 3.0.application
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\EMAT 3.0.exe.manifest
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\EMAT 3.0.application
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\OxyPlot.pdb
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\OxyPlot.WindowsForms.pdb
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\OxyPlot.Wpf.pdb
+C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\OxyPlot.Xps.pdb

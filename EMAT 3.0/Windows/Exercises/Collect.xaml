@@ -1,0 +1,18 @@
+﻿<Window x:Class="EMAT3.Windows.Exercises.CollectionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Angle Collect" Height="352.667" Width="430" Background="{x:Null}" AllowsTransparency="True" WindowStyle="None" ShowInTaskbar="False" ResizeMode="NoResize" Topmost="True" WindowStartupLocation="CenterScreen" WindowState="Maximized" HorizontalAlignment="Center" VerticalAlignment="Center" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.Background>
+            <SolidColorBrush Color="White" Opacity="0.75"/>
+        </Grid.Background>
+        <GroupBox x:Name="groupBox_collection" Header="Collection" Margin="10">
+            <Grid>
+                <Button x:Name="btn_zero" Content="Zero Sensors" HorizontalAlignment="Left" Margin="313,37,0,0" VerticalAlignment="Top" Width="75"/>
+                <Button x:Name="btn_start" Content="Start" HorizontalAlignment="Left" Margin="313,10,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.533,-0.636"/>
+            </Grid>
+        </GroupBox>
+        <Label x:Name="lbl_output" Content="Label" HorizontalAlignment="Left" Margin="65,117,0,0" VerticalAlignment="Top" Width="222"/>
+
+    </Grid>
+</Window>

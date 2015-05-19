@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>OxyPlot.Core</id>
+    <version>2014.1.442</version>
+    <authors>objo</authors>
+    <owners>objo</owners>
+    <licenseUrl>https://raw.githubusercontent.com/oxyplot/oxyplot/master/LICENSE</licenseUrl>
+    <projectUrl>http://oxyplot.org/</projectUrl>
+    <iconUrl>http://resources.oxyplot.org/icons/oxyplot_128.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>OxyPlot is an open source plotting library for .NET. This core package is included in the other OxyPlot packages.</description>
+    <releaseNotes />
+    <copyright>Copyright 2014</copyright>
+    <tags>plotting plot charting chart</tags>
+  </metadata>
+</package>

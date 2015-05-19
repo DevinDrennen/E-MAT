@@ -1,0 +1,25 @@
+﻿<Window x:Class="EMAT3.Windows.Core.About"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="About" Height="282" Width="473" ResizeMode="NoResize">
+    <Grid>
+        <Image Visibility="Visible" Source="pack://application:,,,/Resources/Images/etownLogo.png" HorizontalAlignment="Left" Height="250" VerticalAlignment="Top" Width="194"/>
+        <RichTextBox IsReadOnly="True" HorizontalAlignment="Left" Height="223" Margin="194,10,0,0" VerticalAlignment="Top" Width="258">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="Elizabethtown College Engineering"/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="EMAT System...."/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="Dr. Kurt DeGoede..."/>
+                </Paragraph>
+                <Paragraph>
+                    <Run Text="Etc..."/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+
+    </Grid>
+</Window>
