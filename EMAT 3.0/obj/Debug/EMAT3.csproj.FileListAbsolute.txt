@@ -271,3 +271,63 @@ C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\OxyPlot
 C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\OxyPlot.WindowsForms.pdb
 C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\OxyPlot.Wpf.pdb
 C:\Users\drennend\Desktop\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\OxyPlot.Xps.pdb
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\EMAT 3.0.exe.config
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\EMAT 3.0.exe
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\EMAT 3.0.pdb
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\EMAT3.csprojResolveAssemblyReference.cache
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\Windows\Core\About.baml
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\Windows\Core\EMAT.baml
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\Windows\Exercises\TremorDetection.baml
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\Windows\Exercises\Collect.baml
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\Windows\Core\About.g.cs
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\Windows\Core\EMAT.g.cs
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\Windows\Exercises\TremorDetection.g.cs
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\Windows\Exercises\Collect.g.cs
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\App.g.cs
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\EMAT 3.0_MarkupCompile.cache
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\EMAT 3.0.g.resources
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\EMAT3.Properties.Resources.resources
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\EMAT3.Windows.Utilities.GraphForm.resources
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\EMAT3.Windows.Utitlities.NodeDataDisplay.resources
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\EMAT3.Windows.Utitlities.NodeTest.resources
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\EMAT3.csproj.GenerateResource.Cache
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\EMAT 3.0.exe.manifest
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\EMAT 3.0.application
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\EMAT 3.0.exe
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\EMAT 3.0.pdb
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\Data Library.dll
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\Math Library.dll
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\OxyPlot.dll
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\OxyPlot.WindowsForms.dll
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\OxyPlot.Wpf.dll
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\OxyPlot.Xps.dll
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\Sensor Library.dll
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\Xceed.Wpf.AvalonDock.dll
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\Xceed.Wpf.DataGrid.dll
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\Xceed.Wpf.Toolkit.dll
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\Data Library.pdb
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\Math Library.pdb
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\Sensor Library.pdb
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\OxyPlot.pdb
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\OxyPlot.xml
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\OxyPlot.WindowsForms.pdb
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\OxyPlot.WindowsForms.xml
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\OxyPlot.Wpf.pdb
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\OxyPlot.Wpf.xml
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\OxyPlot.Xps.pdb
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\OxyPlot.Xps.xml
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\EMAT 3.0.exe.manifest
+U:\Private\degoedek-e-mat-85adb1975ba2\EMAT 3.0\obj\Debug\EMAT 3.0.application
