@@ -23,6 +23,7 @@ namespace EMAT3.Windows.Exercises
         System.Windows.Threading.DispatcherTimer dtmr_countdown = new System.Windows.Threading.DispatcherTimer();
         static float[] xyzagm = new float[9]; //Stores the data - XYZ Acceleration, Gyroscope, Magnetic
 
+        static Sensor_Library.MadgwickAHRS SensorA = new Sensor_Library.MadgwickAHRS(1f / 20f, .01f);
 
         public CollectionWindow()
         {
@@ -30,6 +31,8 @@ namespace EMAT3.Windows.Exercises
 
             Nodes.NodesList[0].StartCollection();
             Nodes.NodesList[0].CapturedData += new RazorDataCaptured(Fusion_CapturedData);
+
+
 
             dtmr_countdown.Interval = new TimeSpan(0, 0, 0, 0, 20); //20 ms interval
             dtmr_countdown.Tick += new EventHandler(dtmr_countdown_Tick); //Timer event handler.
@@ -45,12 +48,13 @@ namespace EMAT3.Windows.Exercises
         {
             // This is where the data goes. Do your mathimatical magic here.
             // Remember, the structure of data is [accel_x,accel_y,accel_z,gyro_x,gyro_y,gyro_z,mag_x,mag_y,mag_z]
-            Sensor_Library.Fusion.Update(data, deltaT);
+            //SensorA.SamplePeriod = deltaT;
+            SensorA.Update(data[3], data[4], data[5], data[0], data[1], data[2], data[6], data[7], data[8]);
         }
 
         private void dtmr_countdown_Tick(object sender, EventArgs e)
         {
-            lbl_output.Content = "W:" + Sensor_Library.Fusion.q.w.ToString() + " X:" + Sensor_Library.Fusion.q.x.ToString() + " Y:" + Sensor_Library.Fusion.q.y.ToString() + " Z:" + Sensor_Library.Fusion.q.z.ToString();
+            lbl_output.Content = "W:" + SensorA.Quaternion[0].ToString() + " X:" + SensorA.Quaternion[1].ToString() + " Y:" + SensorA.Quaternion[2].ToString() + " Z:" + SensorA.Quaternion[3].ToString();
         }
     }
 }
