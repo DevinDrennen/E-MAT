@@ -94,7 +94,7 @@ namespace Sensor_Library
                 lock (_data)
                     ReadData(ref _data);
 
-                deltaT = (DateTime.Now - oldTime).Ticks * 0.0001F;
+                deltaT = (DateTime.Now - oldTime).Ticks / 10000f;
                 oldTime = DateTime.Now;
                 CapturedData(_data, deltaT);
             }

@@ -23,38 +23,69 @@ namespace EMAT3.Windows.Exercises
         System.Windows.Threading.DispatcherTimer dtmr_countdown = new System.Windows.Threading.DispatcherTimer();
         static float[] xyzagm = new float[9]; //Stores the data - XYZ Acceleration, Gyroscope, Magnetic
 
-        static Sensor_Library.MadgwickAHRS SensorA = new Sensor_Library.MadgwickAHRS(1f / 20f, .01f);
+        static Sensor_Library.MadgwickAHRS SensorA = new Sensor_Library.MadgwickAHRS(1f / 20f, .4f);
+        static Sensor_Library.MadgwickAHRS SensorB = new Sensor_Library.MadgwickAHRS(1f / 20f, .4f);
 
         public CollectionWindow()
         {
             InitializeComponent();
 
             Nodes.NodesList[0].StartCollection();
-            Nodes.NodesList[0].CapturedData += new RazorDataCaptured(Fusion_CapturedData);
+            Nodes.NodesList[0].CapturedData += new RazorDataCaptured(Fusion_CapturedDataSensorA);
+
+            Nodes.NodesList[1].StartCollection();
+            Nodes.NodesList[1].CapturedData += new RazorDataCaptured(Fusion_CapturedDataSensorB);
 
 
 
-            dtmr_countdown.Interval = new TimeSpan(0, 0, 0, 0, 20); //20 ms interval
+            dtmr_countdown.Interval = new TimeSpan(0, 0, 0, 0, 500); //20 ms interval
             dtmr_countdown.Tick += new EventHandler(dtmr_countdown_Tick); //Timer event handler.
             dtmr_countdown.Start();
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
+            
 
         }
 
-        private static void Fusion_CapturedData(float[] data, float deltaT)
+        private static void Fusion_CapturedDataSensorA(float[] data, float deltaT)
         {
             // This is where the data goes. Do your mathimatical magic here.
             // Remember, the structure of data is [accel_x,accel_y,accel_z,gyro_x,gyro_y,gyro_z,mag_x,mag_y,mag_z]
-            //SensorA.SamplePeriod = deltaT;
-            SensorA.Update(data[3], data[4], data[5], data[0], data[1], data[2], data[6], data[7], data[8]);
+            SensorA.SamplePeriod = deltaT / 1000f;
+            SensorA.Update(deg2rad(data[3] / 14.375f), deg2rad(data[4] / 14.375f), deg2rad(data[5] / 14.375f), data[0], data[1], data[2], data[6], data[7], data[8]);
+            
         }
+
+        private static void Fusion_CapturedDataSensorB(float[] data, float deltaT)
+        {
+            // This is where the data goes. Do your mathimatical magic here.
+            // Remember, the structure of data is [accel_x,accel_y,accel_z,gyro_x,gyro_y,gyro_z,mag_x,mag_y,mag_z]
+            SensorB.SamplePeriod = deltaT / 1000f;
+            SensorB.Update(deg2rad(data[3] / 14.375f), deg2rad(data[4] / 14.375f), deg2rad(data[5] / 14.375f), data[0], data[1], data[2], data[6], data[7], data[8]);
+
+        }
+        
 
         private void dtmr_countdown_Tick(object sender, EventArgs e)
         {
             lbl_output.Content = "W:" + SensorA.Quaternion[0].ToString() + " X:" + SensorA.Quaternion[1].ToString() + " Y:" + SensorA.Quaternion[2].ToString() + " Z:" + SensorA.Quaternion[3].ToString();
+            XY.Points = PointCollection.Parse("50,250," + (50 - (50*SensorA.Quaternion[1])).ToString() +  "," + (250-(50*SensorA.Quaternion[2])).ToString());
+            XZ.Points = PointCollection.Parse("200,250," + (200 - (50* SensorA.Quaternion[1])).ToString() + "," + (250 - (50 * SensorA.Quaternion[3])).ToString());
+        }
+
+        static float deg2rad(float degrees)
+        {
+            return (float)(Math.PI / 180) * degrees;
+        }
+
+        private void btn_zero_Click(object sender, EventArgs e)
+        {
+            SensorA.Quaternion[0] = 1;
+            SensorA.Quaternion[1] = 0;
+            SensorA.Quaternion[2] = 0;
+            SensorA.Quaternion[3] = 0;
         }
     }
 }

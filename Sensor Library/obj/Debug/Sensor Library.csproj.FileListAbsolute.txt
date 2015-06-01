@@ -181,3 +181,38 @@ U:\Private\degoedek-e-mat-85adb1975ba2\Sensor Library\bin\Debug\zh-Hans\Xceed.Wp
 U:\Private\degoedek-e-mat-85adb1975ba2\Sensor Library\obj\Debug\Sensor Library.csprojResolveAssemblyReference.cache
 U:\Private\degoedek-e-mat-85adb1975ba2\Sensor Library\obj\Debug\Sensor Library.dll
 U:\Private\degoedek-e-mat-85adb1975ba2\Sensor Library\obj\Debug\Sensor Library.pdb
+C:\Users\drennend\Documents\GitHub\E-MAT\Sensor Library\bin\Debug\Sensor Library.dll.config
+C:\Users\drennend\Documents\GitHub\E-MAT\Sensor Library\bin\Debug\Sensor Library.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Sensor Library\bin\Debug\Sensor Library.pdb
+C:\Users\drennend\Documents\GitHub\E-MAT\Sensor Library\bin\Debug\Math Library.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Sensor Library\bin\Debug\OxyPlot.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Sensor Library\bin\Debug\OxyPlot.WindowsForms.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Sensor Library\bin\Debug\OxyPlot.Wpf.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Sensor Library\bin\Debug\OxyPlot.Xps.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Sensor Library\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Sensor Library\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Sensor Library\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Sensor Library\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Sensor Library\bin\Debug\Xceed.Wpf.DataGrid.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Sensor Library\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Sensor Library\bin\Debug\Math Library.pdb
+C:\Users\drennend\Documents\GitHub\E-MAT\Sensor Library\bin\Debug\OxyPlot.xml
+C:\Users\drennend\Documents\GitHub\E-MAT\Sensor Library\bin\Debug\OxyPlot.WindowsForms.pdb
+C:\Users\drennend\Documents\GitHub\E-MAT\Sensor Library\bin\Debug\OxyPlot.WindowsForms.xml
+C:\Users\drennend\Documents\GitHub\E-MAT\Sensor Library\bin\Debug\OxyPlot.Wpf.pdb
+C:\Users\drennend\Documents\GitHub\E-MAT\Sensor Library\bin\Debug\OxyPlot.Wpf.xml
+C:\Users\drennend\Documents\GitHub\E-MAT\Sensor Library\bin\Debug\OxyPlot.Xps.pdb
+C:\Users\drennend\Documents\GitHub\E-MAT\Sensor Library\bin\Debug\OxyPlot.Xps.xml
+C:\Users\drennend\Documents\GitHub\E-MAT\Sensor Library\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Sensor Library\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Sensor Library\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Sensor Library\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Sensor Library\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Sensor Library\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Sensor Library\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Sensor Library\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Sensor Library\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Sensor Library\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Sensor Library\obj\Debug\Sensor Library.csprojResolveAssemblyReference.cache
+C:\Users\drennend\Documents\GitHub\E-MAT\Sensor Library\obj\Debug\Sensor Library.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Sensor Library\obj\Debug\Sensor Library.pdb
