@@ -86,6 +86,11 @@ namespace EMAT3.Windows.Exercises
             SensorA.Quaternion[1] = 0;
             SensorA.Quaternion[2] = 0;
             SensorA.Quaternion[3] = 0;
+
+            SensorB.Quaternion[0] = 1;
+            SensorB.Quaternion[1] = 0;
+            SensorB.Quaternion[2] = 0;
+            SensorB.Quaternion[3] = 0;
         }
     }
 }
