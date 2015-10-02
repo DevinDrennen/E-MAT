@@ -172,5 +172,12 @@ namespace EMAT3.Windows.Core
             (new TremorDetectionWindow()).ShowDialog();
             grid_Controls.Visibility = Visibility.Visible;
         }
+
+        private void btn_motion_emulate_Click(object sender, RoutedEventArgs e)
+        {
+            grid_Controls.Visibility = Visibility.Hidden;
+            (new NodeVisualizationWindow()).ShowDialog();
+            grid_Controls.Visibility = Visibility.Visible;
+        }
     }
 }

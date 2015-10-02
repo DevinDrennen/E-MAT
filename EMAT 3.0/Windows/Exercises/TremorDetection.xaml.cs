@@ -131,7 +131,7 @@ namespace EMAT3.Windows.Exercises
             // Remember, the structure of data is [accel_x,accel_y,accel_z,gyro_x,gyro_y,gyro_z,mag_x,mag_y,mag_z]
             float[] xyz = new float[] { data[0], data[1], data[2] };
             AccelProcessing.accelData.Add(xyz);
-            Utility_Classes.RawDataCollection.LogData(xyz, DateTime.Now, "Tremor Detection");
+            Utility_Classes.RawDataCollection.LogData(xyz, DateTime.Now, deltaT, "Tremor Detection");
         }
 
         private void dtmr_countdown_Tick(object sender, EventArgs e)

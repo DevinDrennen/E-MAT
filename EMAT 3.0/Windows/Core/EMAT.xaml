@@ -38,7 +38,7 @@
                 <Grid>
                     <Button x:Name="btn_motion_collect" Content="Motion Capture" Margin="10,10,0,0" VerticalAlignment="Top" Height="30" RenderTransformOrigin="1.66,1.6" HorizontalAlignment="Left" Width="100" Click="btn_motion_collect_Click"/>
                     <Button x:Name="btn_motion_load" Content="Motion Load" Margin="10,45,0,0" VerticalAlignment="Top" Height="30" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" Width="100"/>
-                    <Button x:Name="btn_motion_emulate" Content="Motion Emulate" HorizontalAlignment="Left" Margin="10,80,0,0" VerticalAlignment="Top" Width="100" Height="30" RenderTransformOrigin="0.5,0.5"/>
+                    <Button x:Name="btn_motion_emulate" Content="Motion Emulate" HorizontalAlignment="Left" Margin="10,80,0,0" VerticalAlignment="Top" Width="100" Height="30" RenderTransformOrigin="0.5,0.5" Click="btn_motion_emulate_Click"/>
 
                     <Button x:Name="btn_motion_spatVisual" Content="Spatial Visualization" Margin="115,10,0,0" VerticalAlignment="Top" Height="30" RenderTransformOrigin="1.66,1.6" HorizontalAlignment="Left" Width="130"/>
                     <Button x:Name="btn_motion_collectAccel" Content="Tremor Tool" Margin="115,45,0,0" VerticalAlignment="Top" Height="30" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" Width="130" Click="btn_motion_collectAccel_Click"/>

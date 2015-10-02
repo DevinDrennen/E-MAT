@@ -197,6 +197,9 @@
     <Compile Include="Windows\Utitlities\Score.Designer.cs">
       <DependentUpon>Score.cs</DependentUpon>
     </Compile>
+    <Compile Include="Windows\Utitlities\NodeVisualization.xaml.cs">
+      <DependentUpon>NodeVisualization.xaml</DependentUpon>
+    </Compile>
     <Page Include="Windows\Core\About.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -221,6 +224,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Windows\Exercises\Collect.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Utitlities\NodeVisualization.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

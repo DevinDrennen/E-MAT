@@ -67,7 +67,7 @@ namespace Math_Library
         /// <param name="flexion">Returns the "flexion/extension" of the orientation</param>
         /// <param name="abduction">Returns the "abduction/adduction" of the orientation</param>
         /// <param name="external">Returns the "internal/external rotation" of the orientation</param>
-        public static void getAnatomicAngles(Quaternion q, out double flexion, out double abduction, out double external)
+        public static void getAnatomicAngles(Math_Library.Quaternion q, out double flexion, out double abduction, out double external)
         {
             // This method dynamically switches between 2 rotation sequences
             // Both sequences assume '1' is the final axis of rotation

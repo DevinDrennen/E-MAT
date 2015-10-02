@@ -391,3 +391,5 @@ C:\Users\drennend\Documents\GitHub\E-MAT\EMAT 3.0\obj\Debug\EMAT3.Windows.Utitli
 C:\Users\drennend\Documents\GitHub\E-MAT\EMAT 3.0\obj\Debug\EMAT3.csproj.GenerateResource.Cache
 C:\Users\drennend\Documents\GitHub\E-MAT\EMAT 3.0\obj\Debug\EMAT 3.0.exe.manifest
 C:\Users\drennend\Documents\GitHub\E-MAT\EMAT 3.0\obj\Debug\EMAT 3.0.application
+C:\Users\drennend\Documents\GitHub\E-MAT\EMAT 3.0\obj\Debug\Windows\Utitlities\NodeVisualization.baml
+C:\Users\drennend\Documents\GitHub\E-MAT\EMAT 3.0\obj\Debug\Windows\Utitlities\NodeVisualization.g.cs

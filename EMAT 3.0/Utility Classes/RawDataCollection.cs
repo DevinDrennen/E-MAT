@@ -60,12 +60,13 @@ namespace EMAT3.Utility_Classes
         /// Writes the data to the patient file for raw data collection.
         /// </summary>
         /// <param name="data">The data to be printed. Should be in Axyz Gxyz Mxyz format.</param>
+        /// <param name="deltaT">The delta T reported by RazorIMU.cs</param>
         /// <param name="time">The DateTime representing when this data was taken.</param>
         /// <param name="type">What was the task when this was taken?</param>
-        public static void LogData(float[] data, DateTime time, string type)
+        public static void LogData(float[] data, DateTime time, float deltaT, string type)
         {
             using(StreamWriter stream = new StreamWriter(fileRaw, true))
-                stream.WriteLine(time.ToString() + ", " + time.Ticks.ToString() + ", " + type + ", " + String.Join(", ", data));
+                stream.WriteLine(time.ToString() + ", " + deltaT.ToString() + ", " + type + ", " + String.Join(", ", data));
         }
 
 
@@ -93,7 +94,7 @@ namespace EMAT3.Utility_Classes
         {
             using (StreamWriter file = new StreamWriter(fileClin, true))
                 file.WriteLine(time.ToShortDateString() + ", " + time.ToLongTimeString() + ", " + freq.ToString() + ", " + amp.ToString());
-        }
+        }   
 
     }
 }
