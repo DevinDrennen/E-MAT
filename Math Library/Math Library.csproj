@@ -82,6 +82,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="RotationMatrix.cs" />
     <Compile Include="Matrices.cs" />
     <Compile Include="Position3D.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

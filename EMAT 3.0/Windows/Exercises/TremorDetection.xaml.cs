@@ -7,48 +7,54 @@ using System;
 using System.Diagnostics;
 using System.Windows;
 using System.Windows.Forms;
+using System.Threading;
 
 namespace EMAT3.Windows.Exercises
 {
     public partial class TremorDetectionWindow : Window
     {
-        private int timeLeft = 0;
-        private static int n = 0;
-        static int tremorinfo = 0;
-        private Boolean readyToStop = false;
+        private readonly SynchronizationContext _syncContext;
 
-        System.Windows.Threading.DispatcherTimer dtmr_countdown = new System.Windows.Threading.DispatcherTimer();
-
-        //Various graphing things.
+        // Various ploting things
+        public OxyPlot.Wpf.PlotView Plot;
         float[,] graphData = new float[2, 10];
         LineSeries fLine = new LineSeries { Title = "Frequency", StrokeThickness = 1 };
         LineSeries aLine = new LineSeries { Title = "Amplitude", StrokeThickness = 1 };
 
-        public OxyPlot.Wpf.Plot Plot;
+        private bool running = false;
 
+        /// <summary>
+        /// 
+        /// </summary>
         public TremorDetectionWindow()
         {
             InitializeComponent();
-
-            AccelProcessing.threshold = (decimal)numUpDown_ThresholdFreq.Value;
-
-            dtmr_countdown.Interval = new TimeSpan(0,0,0,0,1000); //1 Second interval
-            dtmr_countdown.Tick += new EventHandler(dtmr_countdown_Tick); //Timer event handler.
+            _syncContext = SynchronizationContext.Current;
 
             grid_advancedSettingsHolder.Visibility = Visibility.Hidden;
             grid_graphHolder.Visibility = Visibility.Hidden;
 
-            //Makes the plot.
-            Plot = new OxyPlot.Wpf.Plot();
-            Plot.Model = new PlotModel();
-            //Plot.Dock = DockStyle.Fill;
-            groupBox_graph.Content = Plot;
+            combobox_nodeSelect.Items.Clear();
+            Nodes.UpdateAvailableSensors();
 
+            foreach (string sensor in Nodes.Ports)
+                combobox_nodeSelect.Items.Add(sensor);
+
+            if (!combobox_nodeSelect.Items.IsEmpty)
+                combobox_nodeSelect.SelectedIndex = 0;
+
+            // Makes the plot.
+            Plot = new OxyPlot.Wpf.PlotView();
+            Plot.Model = new PlotModel();
             Plot.Model.PlotType = PlotType.XY;
             Plot.Model.Background = OxyColor.FromRgb(255, 255, 255);
+
+            //Plot.Dock = DockStyle.Fill;
+            groupBox_graph.Content = Plot;
             //Plot.Model.TextColor = OxyColor.FromRGB(0, 0, 0);
 
-            for (int i = 0; i < 10; i++) //Our data is filled with zeros for now.
+            //Our graph data is filled with zeros for now.
+            for (int i = 0; i < 10; i++) 
             {
                 graphData[0, i] = 0;
                 fLine.Points.Add(new DataPoint(i, graphData[0, i]));
@@ -71,7 +77,144 @@ namespace EMAT3.Windows.Exercises
             Plot.Model.Axes.Add(fAxis); //Adds the Y Axis for the frequency
             Plot.Model.Axes.Add(aAxis); //Adds the Y Axis for the amplitude
         }
+        
+        private void btn_start_Click(object sender, RoutedEventArgs e)
+        {
+            if (!running)
+            {
+                // If a node has been selected
+                if (combobox_nodeSelect.SelectedItem != null)
+                {
+                    running = true;
+                    // Use/Change UI before starting
+                    TremorProcessing.Threshold_Frequency = (float)numUpDown_ThresholdFreq.Value;
+                    TremorProcessing.Threshold_Amplitude = (float)numUpDown_ThresholdAmp.Value;
+                    btn_start.Content = "Stop Collection";
 
+                    // Disables the UI
+                    combobox_nodeSelect.IsEnabled = false;
+                    numUpDown_ThresholdAmp.IsEnabled = false;
+                    numUpDown_ThresholdFreq.IsEnabled = false;
+
+                    /* Clear nodes and add the one selected.
+                     * Start collecting data on this node.
+                     * Set up the data received event
+                    */
+                    Nodes.NodesList.Clear();
+                    Nodes.NodesList.Add(new RazorIMU(combobox_nodeSelect.Text));
+                    Nodes.NodesList[0].StartCollection();
+                    Nodes.NodesList[0].CapturedData += new RazorDataCaptured(Fusion_CapturedData);
+
+                    // Set up the tremor processing class and tremor calculated event
+                    TremorProcessing.Initialize();
+                    TremorProcessing.CalculatedTremor += TremorProcessing_CalculatedTremor;
+
+                }
+                else
+                    System.Windows.MessageBox.Show("Please select a node", "Collection Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+            else
+            {
+                btn_start.Content = "Start Collection";
+
+                // Enables the UI
+                combobox_nodeSelect.IsEnabled = true;
+                numUpDown_ThresholdAmp.IsEnabled = true;
+                numUpDown_ThresholdFreq.IsEnabled = true;
+
+                // Stop the collection and calculation events
+                Nodes.NodesList[0].CapturedData -= Fusion_CapturedData;
+                Nodes.NodesList[0].Dispose();
+                Nodes.NodesList.Clear();
+                TremorProcessing.CalculatedTremor -= TremorProcessing_CalculatedTremor;
+                running = false;
+            }
+        }
+
+        /// <summary>
+        /// This is where the sensor data goes when it has been captured.
+        /// </summary>
+        /// <param name="data">Data from he sensor. Remember, the structure of data is [accel_x,accel_y,accel_z,gyro_x,gyro_y,gyro_z,mag_x,mag_y,mag_z]</param>
+        /// <param name="deltaT">Time since previous data was given.</param>
+        private static void Fusion_CapturedData(float[] data, float deltaT)
+        {
+            TremorProcessing.LogPoint(data[0], data[1], data[2], deltaT);
+            DataLogging.LogRawData(deltaT, data[0], data[1], data[2], data[3], data[4], data[5], 0, 0, 0);
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="frequency"></param>
+        /// <param name="amplitude"></param>
+        private void TremorProcessing_CalculatedTremor(float frequency, float amplitude)
+        {
+            // Log clinician data
+            DataLogging.LogClinicianData(amplitude, frequency, DateTime.Now);
+
+            // Display and plot no tremor if the freq or magnitude are below threshold
+            // Otherwise, plot frequency and magnitude, and display rounded values
+            if (amplitude < TremorProcessing.Threshold_Amplitude)
+            {
+                _syncContext.Send(o =>
+                {
+                    lbl_tremor.Content = "Frequency: No Tremor Detected";
+                    lbl_tremorAmp.Content = "Amplitude: No Tremor Detected";
+                    updateGraph();
+                }, null);
+                
+            }
+            else
+            {
+                _syncContext.Send(o =>
+                {
+                    lbl_tremor.Content = "Frequency: " + Math.Round(frequency, 1) + " Hz";
+                    lbl_tremorAmp.Content = "Amplitude: " + Math.Round(amplitude, 2) + " mm";
+                    updateGraph(TremorProcessing.Frequency, TremorProcessing.Amplitude);
+                }, null);
+            }
+
+            _syncContext.Send(o =>
+            {
+                lbl_averageThreshold.Content = "Average x Threshold: " + TremorProcessing.Average_Frequency * TremorProcessing.Threshold_Frequency;
+                lbl_average.Content = "Average: " + TremorProcessing.Average_Frequency;
+                lbl_maxBin.Content = "Largest Value: " + TremorProcessing.Largest_Bin;
+            }, null);
+        }
+        
+        /// <summary>
+        /// Updates the graph known as plot. It pushes the old data down and puts in the new.
+        /// </summary>
+        /// <param name="freq"></param>
+        /// <param name="amp"></param>
+        private void updateGraph(float freq = 0, float amp = 0)
+        {
+            // Shift data down, add new points to end (Queue).
+            for (int i = 0; i < 9; i++)
+            {
+                graphData[0, i] = graphData[0, i + 1];
+                graphData[1, i] = graphData[1, i + 1];
+
+            }
+            graphData[0, 9] = freq;
+            graphData[1, 9] = amp;
+
+            // Clear and update the graph lines.
+            fLine.Points.Clear();
+            aLine.Points.Clear();
+            for (int i = 0; i < 10; i++)
+            {
+                fLine.Points.Add(new DataPoint(i, graphData[0, i]));
+                aLine.Points.Add(new DataPoint(i, graphData[1, i]));
+            }
+            Plot.Model.InvalidatePlot(true); // Displays the changed data.
+        }
+
+        #region UI Things
+
+        /// <summary>
+        /// 
+        /// </summary>
         private void combobox_nodeSelect_DropDown(object sender, EventArgs e)
         {
             combobox_nodeSelect.Items.Clear();
@@ -81,127 +224,19 @@ namespace EMAT3.Windows.Exercises
                 combobox_nodeSelect.Items.Add(sensor);
         }
 
-        private void Acceleration_Load(object sender, EventArgs e)
+        private void btn_exit_Click(object sender, EventArgs e)
         {
-            foreach (RazorIMU node in Nodes.NodesList)
-                combobox_nodeSelect.Items.Add(node.Port);
-        }
-
-        private void btn_start_Click(object sender, EventArgs e)
-        {
-            if (combobox_nodeSelect.SelectedItem != null) //Makes sure something is selected.
+            if(running)
             {
-                if (!dtmr_countdown.IsEnabled)
-                {
-                    // Disables the changing of the interval and changing the node.
-                    numUpDown_Time.IsEnabled = false;
-                    combobox_nodeSelect.IsEnabled = false;
-
-                    //Starts the timer.
-                    timeLeft = (int)numUpDown_Time.Value;
-                    dtmr_countdown.Start();
-                    btn_start.Content = "Stop Collection";
-                    lbl_countDown.Content = "Countdown: " + timeLeft;
-
-                    //Sets the node.
-                    Nodes.NodesList.Clear();
-                    Nodes.NodesList.Add(new RazorIMU(combobox_nodeSelect.Text));
-
-
-                    // Start collecting data.
-                    Nodes.NodesList[0].StartCollection();
-
-                    // Start triggering the recieved data event.
-                    Nodes.NodesList[0].CapturedData += new RazorDataCaptured(Fusion_CapturedData);
-
-                    //Gets the current time.
-                    AccelProcessing.startTime = DateTime.Now.Ticks;
-                }
-                else
-                {
-                    readyToStop = true;
-                    btn_start.Content = "Stopping...";
-                }
+                // Stop the collection and calculation events
+                Nodes.NodesList[0].CapturedData -= Fusion_CapturedData;
+                TremorProcessing.CalculatedTremor -= TremorProcessing_CalculatedTremor;
+                // Stop the collection and calculation events
+                Nodes.NodesList[0].Dispose();
+                Nodes.NodesList.Clear();
             }
-        }
-
-        private static void Fusion_CapturedData(float[] data, float deltaT)
-        {
-            // This is where the data goes. Do your mathimatical magic here.
-            // Remember, the structure of data is [accel_x,accel_y,accel_z,gyro_x,gyro_y,gyro_z,mag_x,mag_y,mag_z]
-            float[] xyz = new float[] { data[0], data[1], data[2] };
-            AccelProcessing.accelData.Add(xyz);
-            Utility_Classes.RawDataCollection.LogData(xyz, DateTime.Now, "Tremor Detection");
-        }
-
-        private void dtmr_countdown_Tick(object sender, EventArgs e)
-        {
-            if (timeLeft != 0)
-            {
-                timeLeft -= 1;
-                lbl_countDown.Content = "Countdown: " + timeLeft; // Display time left
-            }
-            else
-            {
-                // Things here happen after every countdown.
-                lbl_countDown.Content = "Countdown: Processing Data...";
-                AccelProcessing.time_elapsed = DateTime.Now.Ticks - AccelProcessing.startTime;
-                AccelProcessing.ProcessAccel();
-                AccelProcessing.accelData.Clear();
-                Utility_Classes.RawDataCollection.LogData(AccelProcessing.amp, AccelProcessing.freq, DateTime.Now);
-                if (AccelProcessing.freq == -1 || AccelProcessing.amp < (float)numUpDown_ThresholdAmp.Value) //Print out "No Tremor Detected" if Frequency is below a certain threshold. 
-                {
-                    lbl_tremor.Content = "Frequency: No Tremor Detected";
-                    lbl_tremorAmp.Content = "Amplitude: No Tremor Detected";
-                    updateGraph(0, 0);
-                }
-                else
-                {
-                    lbl_tremor.Content = "Frequency: " + Math.Round(AccelProcessing.freq, 2).ToString() + " Hz";
-                    lbl_tremorAmp.Content = "Amplitude: " + Math.Round(AccelProcessing.amp, 2).ToString() + " cm";
-                    updateGraph(AccelProcessing.freq, AccelProcessing.amp);
-                }
-
-                lbl_averageThreshold.Content = "Average x Threshold: " + AccelProcessing.averageFreqs * (float)AccelProcessing.threshold;
-                lbl_average.Content = "Average: " + AccelProcessing.averageFreqs;
-                lbl_maxBin.Content = "Largest Value: " + AccelProcessing.largestBin;
-
-                if (!readyToStop) // Unless stop button is pressed
-                {
-                    timeLeft = (int)numUpDown_Time.Value;
-                    lbl_countDown.Content = "Countdown: " + timeLeft;
-                    AccelProcessing.accelData.Clear();
-                    AccelProcessing.startTime = DateTime.Now.Ticks;
-                }
-                else
-                {
-                    Debug.Print("READY TO STOP");
-                    //Let the user know it's stopping.
-                    lbl_countDown.Content = "Countdown: Stopping...";
-
-                    // Stop triggering the data recieved event.
-                    Nodes.NodesList[0].CapturedData -= new RazorDataCaptured(Fusion_CapturedData);
-
-                    //Closes off the node.
-                    Nodes.NodesList[0].Dispose();
-
-                    // Things here happen after the last countdown.
-                    readyToStop = false;
-                    btn_start.Content = "Start Collection";
-                    lbl_countDown.Content = "Countdown:";
-
-                    //Reenable various options.
-                    numUpDown_Time.IsEnabled = true;
-                    combobox_nodeSelect.IsEnabled = true;
-
-                    dtmr_countdown.Stop(); // Stop this timer.
-                }
-            }
-        }
-
-        private void Acceleration_FormClosing(object sender, FormClosingEventArgs e) //Fix this
-        {
-            AccelProcessing.threshold = 4.25M; //Return it to its default value.
+            DataLogging.Dispose();
+            this.Close();
         }
 
         private void checkBox_graph_Checked(object sender, EventArgs e)
@@ -223,51 +258,12 @@ namespace EMAT3.Windows.Exercises
         {
             grid_advancedSettingsHolder.Visibility = Visibility.Hidden;
         }
-
-
-        /// <summary>
-        /// Updates the graph known as plot. It pushes the old data down and puts in the new.
-        /// </summary>
-        /// <param name="freq"></param>
-        /// <param name="amp"></param>
-        private void updateGraph(float freq, float amp)
+        private void btn_break_Click(object sender, RoutedEventArgs e)
         {
-            fLine.Points.Clear();
-            aLine.Points.Clear();
-            for (int i = 0; i < 9; i++)  //Move all the data down a slot so the new data can go in slot 10.
-            {
-                graphData[0, i] = graphData[0, i + 1];
-                graphData[1, i] = graphData[1, i + 1];
-
-            }
-            if (freq == -1) //If the F or A is non existant, store it as 0.
-                freq = 0;
-            if (amp == -1)
-                amp = 0;
-            graphData[0, 9] = freq;
-            graphData[1, 9] = amp;
-            for (int i = 0; i < 10; i++) //Adds the data to the graph.
-            {
-                fLine.Points.Add(new DataPoint(i, graphData[0, i]));
-                aLine.Points.Add(new DataPoint(i, graphData[1, i]));
-            }
-            Plot.Model.InvalidatePlot(true); //Displays the changed data.
+            DataLogging.InsertBreak();
         }
 
-        private void numUpDown_ThresholdFreq_ValueChanged(object sender, EventArgs e)
-        {
-            AccelProcessing.threshold = (decimal) numUpDown_ThresholdFreq.Value;
-        }
+        #endregion
 
-        private void btn_exit_Click(object sender, EventArgs e)
-        {
-            if (dtmr_countdown.IsEnabled)
-            {
-                Debug.Print("PRESSING STOP");
-                btn_start_Click(sender, e);
-            }
-
-            this.Close();
-        }
     }
 }

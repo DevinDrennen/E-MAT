@@ -17,7 +17,7 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
-    <PublishUrl>U:\Public\Release\</PublishUrl>
+    <PublishUrl>C:\Users\Omar\Downloads\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -27,7 +27,7 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationRevision>3</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -67,7 +67,7 @@
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Exocortex.DSP.v1, Version=1.0.1373.39154, Culture=neutral">
@@ -133,8 +133,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Utility Classes\AccelProcessing.cs" />
-    <Compile Include="Utility Classes\RawDataCollection.cs" />
+    <Compile Include="Utility Classes\TremorProcessing.cs" />
+    <Compile Include="Utility Classes\DataLogging.cs" />
     <Compile Include="Utility Classes\CollectionCore.cs" />
     <Compile Include="Windows\Core\Session.cs" />
     <Compile Include="Windows\Exercises\Component1.cs">
@@ -197,6 +197,9 @@
     <Compile Include="Windows\Utitlities\Score.Designer.cs">
       <DependentUpon>Score.cs</DependentUpon>
     </Compile>
+    <Compile Include="Windows\Utitlities\NodeVisualization.xaml.cs">
+      <DependentUpon>NodeVisualization.xaml</DependentUpon>
+    </Compile>
     <Page Include="Windows\Core\About.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -221,6 +224,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Windows\Exercises\Collect.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Utitlities\NodeVisualization.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -268,10 +275,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Data Library\Data Library.csproj">
-      <Project>{f149effc-6141-4f2d-8569-2b7632f4567a}</Project>
-      <Name>Data Library</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Math Library\Math Library.csproj">
       <Project>{50337a2f-d4e7-4901-af60-9997e0b1e79e}</Project>
       <Name>Math Library</Name>

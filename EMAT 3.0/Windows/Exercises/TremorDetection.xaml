@@ -28,8 +28,8 @@
                     <Label x:Name="lbl_averageThreshold" Content="Average x Threshold: " HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top"/>
                     <Label x:Name="lbl_thresholdAmp" Content="Amplitude Threshold:" HorizontalAlignment="Left" Margin="10,134,0,0" VerticalAlignment="Top"/>
                     <Label x:Name="lbl_maxBin" Content="Largest Value: " HorizontalAlignment="Left" Margin="10,103,0,0" VerticalAlignment="Top"/>
-                    <xctk:DecimalUpDown x:Name="numUpDown_ThresholdFreq" HorizontalAlignment="Left" Margin="138,16,0,0" VerticalAlignment="Top" Width="60" Maximum="20" Minimum="1" DefaultValue="1.70" DisplayDefaultValueOnEmptyText="True" Increment="0.05"/>
-                    <xctk:DecimalUpDown x:Name="numUpDown_ThresholdAmp" HorizontalAlignment="Left" Margin="138,140,0,0" VerticalAlignment="Top" Width="60" Maximum="15" Minimum="0" Increment="0.1" DefaultValue="0.1" DisplayDefaultValueOnEmptyText="True"/>
+                    <xctk:DecimalUpDown x:Name="numUpDown_ThresholdFreq" HorizontalAlignment="Left" Margin="138,16,0,0" VerticalAlignment="Top" Width="60" Maximum="20" Minimum="2" DefaultValue="2.00" DisplayDefaultValueOnEmptyText="True" Increment="0.25"/>
+                    <xctk:DecimalUpDown x:Name="numUpDown_ThresholdAmp" HorizontalAlignment="Left" Margin="138,140,0,0" VerticalAlignment="Top" Width="60" Maximum="15" Minimum="2" Increment="0.5" DefaultValue="2" DisplayDefaultValueOnEmptyText="True"/>
                 </Grid>
             </GroupBox>
         </Grid>
@@ -61,13 +61,12 @@
                     <Label x:Name="lbl_node" Content="Select Node:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
                     <CheckBox x:Name="checkBox_advancedSettings" Content="Advanced Settings" HorizontalAlignment="Left" Margin="10,71,0,0" VerticalAlignment="Top" Checked="checkBox_advancedSettings_Checked" Unchecked="checkBox_advancedSettings_Unchecked"/>
                     <Button x:Name="btn_start" Content="Start Collection" HorizontalAlignment="Left" Margin="151,50,0,0" VerticalAlignment="Top" Width="64" Height="109" Background="LightGreen" Click="btn_start_Click" />
-                    <Label x:Name="lbl_interval" Content="Interval:" HorizontalAlignment="Left" Margin="13,124,0,0" VerticalAlignment="Top"/>
-                    <xctk:DecimalUpDown x:Name="numUpDown_Time" HorizontalAlignment="Left" Margin="65,127,0,0" VerticalAlignment="Top" DefaultValue="2" DisplayDefaultValueOnEmptyText="True" Width="49" Minimum="2" Maximum="10" MouseWheelActiveOnFocus="False"/>
+                    <Button x:Name="btn_break" Content="Insert Break" HorizontalAlignment="Left" Margin="10,50,0,10" VerticalAlignment="Bottom" Width="100" Height="55" Background="LightGreen" Click="btn_break_Click" />
                 </Grid>
             </GroupBox>
 
         </Grid>
         <Button x:Name="btn_exit" Content="Exit" HorizontalAlignment="Left" Margin="207,161,0,0" VerticalAlignment="Top" Width="40" Height="40" Background="Red" Click="btn_exit_Click"/>
-
+        
     </Grid>
 </Window>

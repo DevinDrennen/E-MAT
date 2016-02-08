@@ -35,10 +35,8 @@ namespace Sensor_Library
 
         public event RazorDataCaptured CapturedData = delegate { };
         private float[] _data = new float[9];
-        private Quaternion _qtrn;
-        private DateTime oldTime;
 
-        private static Boolean running = false;
+        private static bool running = false;
 
         /// <summary>
         /// Create a new instance of a 9DOF Razor IMU
@@ -86,17 +84,10 @@ namespace Sensor_Library
         /// </summary>
         private void ContinuousCollect()
         {
-            float deltaT = 0;
-            oldTime = DateTime.Now;
-
             while (running) //Static Boolean that controls whether or not to keep running.
             {
-                lock (_data)
-                    ReadData(ref _data);
-
-                deltaT = (DateTime.Now - oldTime).Ticks * 0.0001F;
-                oldTime = DateTime.Now;
-                CapturedData(_data, deltaT);
+                ReadData();
+                CapturedData(_data, 0.020F);
             }
         }
 
@@ -105,15 +96,18 @@ namespace Sensor_Library
         /// <para>Format: [accel_x,accel_y,accel_z,gyro_x,gyro_y,gyro_z,mag_x,mag_y,mag_z]</para>
         /// </summary>
         /// <param name="result">double array of length 9 required.</param>
-        private void ReadData(ref float[] result)
+        private void ReadData()
         {
             _parts = _com.ReadLine().Split(',');
-
+            
             if (_parts.Length == 9)
                 for (int i = 0; i < 9; i++)
-                    result[i] = float.Parse(_parts[i]);
+                    _data[i] = float.Parse(_parts[i]);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
         public void Dispose()
         {
             StopCollection();
