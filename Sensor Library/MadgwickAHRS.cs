@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+//using Math_Library
 
 namespace Sensor_Library
 {
@@ -26,7 +27,7 @@ namespace Sensor_Library
         /// <summary>
         /// Gets or sets the Quaternion output.
         /// </summary>
-        public float[] Quaternion { get; set; }
+        public Math_Library.Quaternion Quaternion { get; set; }
 
         /// <summary>
         /// Initializes a new instance of the <see cref="MadgwickAHRS"/> class.
@@ -52,7 +53,7 @@ namespace Sensor_Library
         {
             SamplePeriod = samplePeriod;
             Beta = beta;
-            Quaternion = new float[] { 1f, 0f, 0f, 0f };
+            Quaternion = new Math_Library.Quaternion( 1f, 0f, 0f, 0f);
         }
 
         /// <summary>
@@ -94,7 +95,7 @@ namespace Sensor_Library
         /// </remarks> 
         public void Update(float gx, float gy, float gz, float ax, float ay, float az, float mx, float my, float mz)
         {
-            float q1 = Quaternion[0], q2 = Quaternion[1], q3 = Quaternion[2], q4 = Quaternion[3];   // short name local variable for readability
+            float q1 = Quaternion.w, q2 = Quaternion.x, q3 = Quaternion.y, q4 = Quaternion.z;   // short name local variable for readability
             float norm;
             float hx, hy, _2bx, _2bz;
             float s1, s2, s3, s4;
@@ -175,10 +176,10 @@ namespace Sensor_Library
             q3 += qDot3 * SamplePeriod;
             q4 += qDot4 * SamplePeriod;
             norm = 1f / (float)Math.Sqrt(q1 * q1 + q2 * q2 + q3 * q3 + q4 * q4);    // normalise quaternion
-            Quaternion[0] = q1 * norm;
-            Quaternion[1] = q2 * norm;
-            Quaternion[2] = q3 * norm;
-            Quaternion[3] = q4 * norm;
+            Quaternion.w = q1 * norm;
+            Quaternion.x = q2 * norm;
+            Quaternion.y = q3 * norm;
+            Quaternion.z = q4 * norm;
         }
 
         /// <summary>
@@ -211,7 +212,7 @@ namespace Sensor_Library
         /// </remarks>
         public void Update(float gx, float gy, float gz, float ax, float ay, float az)
         {
-            float q1 = Quaternion[0], q2 = Quaternion[1], q3 = Quaternion[2], q4 = Quaternion[3];   // short name local variable for readability
+            float q1 = Quaternion.w, q2 = Quaternion.x, q3 = Quaternion.y, q4 = Quaternion.z;   // short name local variable for readability
             float norm;
             float s1, s2, s3, s4;
             float qDot1, qDot2, qDot3, qDot4;
@@ -262,10 +263,10 @@ namespace Sensor_Library
             q3 += qDot3 * SamplePeriod;
             q4 += qDot4 * SamplePeriod;
             norm = 1f / (float)Math.Sqrt(q1 * q1 + q2 * q2 + q3 * q3 + q4 * q4);    // normalise quaternion
-            Quaternion[0] = q1 * norm;
-            Quaternion[1] = q2 * norm;
-            Quaternion[2] = q3 * norm;
-            Quaternion[3] = q4 * norm;
+            Quaternion.w = q1 * norm;
+            Quaternion.x = q2 * norm;
+            Quaternion.y = q3 * norm;
+            Quaternion.z = q4 * norm;
         }
     }
 }

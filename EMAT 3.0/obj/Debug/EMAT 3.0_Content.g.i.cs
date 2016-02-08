@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/images/elogo.bmp")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("windows/exercises/form_3dcuboid/tao.opengl.dll")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("windows/exercises/form_3dcuboid/tao.platform.windows.dll")]
 
 

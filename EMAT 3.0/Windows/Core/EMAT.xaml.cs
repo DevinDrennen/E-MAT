@@ -17,6 +17,7 @@ using EMAT3.Windows.Utilities;
 using Sensor_Library;
 using EMAT3.Windows.Utitlities;
 using EMAT3.Windows.Exercises;
+using EMAT3.Utility_Classes;
 //using Xceed.Wpf.Toolkit;
 
 namespace EMAT3.Windows.Core
@@ -52,7 +53,7 @@ namespace EMAT3.Windows.Core
                     groupBox_Sensors.IsEnabled = true;
                     groupBox_Motion.IsEnabled = true;
                     updateSensors(); //Display all connected sensors.
-                    Utility_Classes.RawDataCollection.StreamCreation(txtBox_patientName.Text); //Sets up the file for recording the patient's data.
+                    DataLogging.InitiateStreams(txtBox_patientName.Text); //Sets up the file for recording the patient's data.
                     Session.Initialize();
                 }
                 else
@@ -171,6 +172,19 @@ namespace EMAT3.Windows.Core
             grid_Controls.Visibility = Visibility.Hidden;
             (new TremorDetectionWindow()).ShowDialog();
             grid_Controls.Visibility = Visibility.Visible;
+        }
+
+        private void btn_motion_emulate_Click(object sender, RoutedEventArgs e)
+        {
+            grid_Controls.Visibility = Visibility.Hidden;
+            (new NodeVisualizationWindow()).ShowDialog();
+            grid_Controls.Visibility = Visibility.Visible;
+        }
+
+        private void txtBox_patientName_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+                btn_beginSession_Click(sender, new RoutedEventArgs());
         }
     }
 }

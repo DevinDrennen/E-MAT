@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="EMAT 3.0.exe" version="1.0.0.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="EMAT 3.0.exe" version="1.0.0.3" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
     <assemblyIdentity name="EMAT 3.0" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
@@ -42,26 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Data Library.dll" size="4096">
-      <assemblyIdentity name="Data Library" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>H0lY/LDooP/cpE+wxNuCQxCayL8y95LLCo/jwy6KuVA=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EMAT 3.0.exe" size="892416">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EMAT 3.0.exe" size="900608">
       <assemblyIdentity name="EMAT 3.0" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>1242kxw126wQ6BkbgxN2XMFvXi779EVu85u0Yiwnofw=</dsig:DigestValue>
+        <dsig:DigestValue>U1V+N+D4l+ovPM/8e3FdIA2GGGxdTo6bAg7Q9X74ID0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -85,7 +73,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>z/Dl5XfBHZCQpJxKJcXtY8KU5kj3VvLM5lmD/96IojM=</dsig:DigestValue>
+        <dsig:DigestValue>ahD1Bwr3cBgwGDQrYt4KllrM2Ehj1JentkDW/jS2nXQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -138,14 +126,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Sensor Library.dll" size="13824">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Sensor Library.dll" size="13312">
       <assemblyIdentity name="Sensor Library" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>hcGhaFwZyaWUchDlhFDHDy39/u9O94GdvYvvQBIxFMs=</dsig:DigestValue>
+        <dsig:DigestValue>fobADTA906nvNaxeKs/17vAkxiJriDgL6HLKJq6fpNQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

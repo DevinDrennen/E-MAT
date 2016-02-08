@@ -169,3 +169,101 @@ U:\Private\degoedek-e-mat-85adb1975ba2\Math Library\bin\Debug\zh-Hans\Xceed.Wpf.
 U:\Private\degoedek-e-mat-85adb1975ba2\Math Library\obj\Debug\Math Library.csprojResolveAssemblyReference.cache
 U:\Private\degoedek-e-mat-85adb1975ba2\Math Library\obj\Debug\Math Library.dll
 U:\Private\degoedek-e-mat-85adb1975ba2\Math Library\obj\Debug\Math Library.pdb
+C:\Users\drennend\Documents\GitHub\E-MAT\Math Library\bin\Debug\Math Library.dll.config
+C:\Users\drennend\Documents\GitHub\E-MAT\Math Library\bin\Debug\Math Library.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Math Library\bin\Debug\Math Library.pdb
+C:\Users\drennend\Documents\GitHub\E-MAT\Math Library\bin\Debug\OxyPlot.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Math Library\bin\Debug\OxyPlot.WindowsForms.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Math Library\bin\Debug\OxyPlot.Wpf.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Math Library\bin\Debug\OxyPlot.Xps.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Math Library\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Math Library\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Math Library\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Math Library\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Math Library\bin\Debug\Xceed.Wpf.DataGrid.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Math Library\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Math Library\bin\Debug\OxyPlot.xml
+C:\Users\drennend\Documents\GitHub\E-MAT\Math Library\bin\Debug\OxyPlot.WindowsForms.pdb
+C:\Users\drennend\Documents\GitHub\E-MAT\Math Library\bin\Debug\OxyPlot.WindowsForms.xml
+C:\Users\drennend\Documents\GitHub\E-MAT\Math Library\bin\Debug\OxyPlot.Wpf.pdb
+C:\Users\drennend\Documents\GitHub\E-MAT\Math Library\bin\Debug\OxyPlot.Wpf.xml
+C:\Users\drennend\Documents\GitHub\E-MAT\Math Library\bin\Debug\OxyPlot.Xps.pdb
+C:\Users\drennend\Documents\GitHub\E-MAT\Math Library\bin\Debug\OxyPlot.Xps.xml
+C:\Users\drennend\Documents\GitHub\E-MAT\Math Library\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Math Library\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Math Library\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Math Library\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Math Library\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Math Library\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Math Library\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Math Library\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Math Library\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Math Library\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Math Library\obj\Debug\Math Library.csprojResolveAssemblyReference.cache
+C:\Users\drennend\Documents\GitHub\E-MAT\Math Library\obj\Debug\Math Library.dll
+C:\Users\drennend\Documents\GitHub\E-MAT\Math Library\obj\Debug\Math Library.pdb
+D:\Users\Omar\Github\E-MAT\Math Library\bin\Debug\Math Library.dll.config
+D:\Users\Omar\Github\E-MAT\Math Library\bin\Debug\Math Library.dll
+D:\Users\Omar\Github\E-MAT\Math Library\bin\Debug\Math Library.pdb
+D:\Users\Omar\Github\E-MAT\Math Library\bin\Debug\OxyPlot.dll
+D:\Users\Omar\Github\E-MAT\Math Library\bin\Debug\OxyPlot.WindowsForms.dll
+D:\Users\Omar\Github\E-MAT\Math Library\bin\Debug\OxyPlot.Wpf.dll
+D:\Users\Omar\Github\E-MAT\Math Library\bin\Debug\OxyPlot.Xps.dll
+D:\Users\Omar\Github\E-MAT\Math Library\bin\Debug\Xceed.Wpf.AvalonDock.dll
+D:\Users\Omar\Github\E-MAT\Math Library\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+D:\Users\Omar\Github\E-MAT\Math Library\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+D:\Users\Omar\Github\E-MAT\Math Library\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+D:\Users\Omar\Github\E-MAT\Math Library\bin\Debug\Xceed.Wpf.DataGrid.dll
+D:\Users\Omar\Github\E-MAT\Math Library\bin\Debug\Xceed.Wpf.Toolkit.dll
+D:\Users\Omar\Github\E-MAT\Math Library\bin\Debug\OxyPlot.xml
+D:\Users\Omar\Github\E-MAT\Math Library\bin\Debug\OxyPlot.WindowsForms.pdb
+D:\Users\Omar\Github\E-MAT\Math Library\bin\Debug\OxyPlot.WindowsForms.xml
+D:\Users\Omar\Github\E-MAT\Math Library\bin\Debug\OxyPlot.Wpf.pdb
+D:\Users\Omar\Github\E-MAT\Math Library\bin\Debug\OxyPlot.Wpf.xml
+D:\Users\Omar\Github\E-MAT\Math Library\bin\Debug\OxyPlot.Xps.pdb
+D:\Users\Omar\Github\E-MAT\Math Library\bin\Debug\OxyPlot.Xps.xml
+D:\Users\Omar\Github\E-MAT\Math Library\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\Users\Omar\Github\E-MAT\Math Library\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\Users\Omar\Github\E-MAT\Math Library\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\Users\Omar\Github\E-MAT\Math Library\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\Users\Omar\Github\E-MAT\Math Library\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\Users\Omar\Github\E-MAT\Math Library\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\Users\Omar\Github\E-MAT\Math Library\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\Users\Omar\Github\E-MAT\Math Library\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\Users\Omar\Github\E-MAT\Math Library\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\Users\Omar\Github\E-MAT\Math Library\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\Users\Omar\Github\E-MAT\Math Library\obj\Debug\Math Library.dll
+D:\Users\Omar\Github\E-MAT\Math Library\obj\Debug\Math Library.pdb
+D:\Users\Omar\Github\E-MAT 3\Math Library\bin\Debug\Math Library.dll.config
+D:\Users\Omar\Github\E-MAT 3\Math Library\bin\Debug\Math Library.dll
+D:\Users\Omar\Github\E-MAT 3\Math Library\bin\Debug\Math Library.pdb
+D:\Users\Omar\Github\E-MAT 3\Math Library\bin\Debug\OxyPlot.dll
+D:\Users\Omar\Github\E-MAT 3\Math Library\bin\Debug\OxyPlot.WindowsForms.dll
+D:\Users\Omar\Github\E-MAT 3\Math Library\bin\Debug\OxyPlot.Wpf.dll
+D:\Users\Omar\Github\E-MAT 3\Math Library\bin\Debug\OxyPlot.Xps.dll
+D:\Users\Omar\Github\E-MAT 3\Math Library\bin\Debug\Xceed.Wpf.AvalonDock.dll
+D:\Users\Omar\Github\E-MAT 3\Math Library\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+D:\Users\Omar\Github\E-MAT 3\Math Library\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+D:\Users\Omar\Github\E-MAT 3\Math Library\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+D:\Users\Omar\Github\E-MAT 3\Math Library\bin\Debug\Xceed.Wpf.DataGrid.dll
+D:\Users\Omar\Github\E-MAT 3\Math Library\bin\Debug\Xceed.Wpf.Toolkit.dll
+D:\Users\Omar\Github\E-MAT 3\Math Library\bin\Debug\OxyPlot.xml
+D:\Users\Omar\Github\E-MAT 3\Math Library\bin\Debug\OxyPlot.WindowsForms.pdb
+D:\Users\Omar\Github\E-MAT 3\Math Library\bin\Debug\OxyPlot.WindowsForms.xml
+D:\Users\Omar\Github\E-MAT 3\Math Library\bin\Debug\OxyPlot.Wpf.pdb
+D:\Users\Omar\Github\E-MAT 3\Math Library\bin\Debug\OxyPlot.Wpf.xml
+D:\Users\Omar\Github\E-MAT 3\Math Library\bin\Debug\OxyPlot.Xps.pdb
+D:\Users\Omar\Github\E-MAT 3\Math Library\bin\Debug\OxyPlot.Xps.xml
+D:\Users\Omar\Github\E-MAT 3\Math Library\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\Users\Omar\Github\E-MAT 3\Math Library\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\Users\Omar\Github\E-MAT 3\Math Library\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\Users\Omar\Github\E-MAT 3\Math Library\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\Users\Omar\Github\E-MAT 3\Math Library\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\Users\Omar\Github\E-MAT 3\Math Library\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\Users\Omar\Github\E-MAT 3\Math Library\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\Users\Omar\Github\E-MAT 3\Math Library\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\Users\Omar\Github\E-MAT 3\Math Library\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\Users\Omar\Github\E-MAT 3\Math Library\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\Users\Omar\Github\E-MAT 3\Math Library\obj\Debug\Math Library.csprojResolveAssemblyReference.cache
+D:\Users\Omar\Github\E-MAT 3\Math Library\obj\Debug\Math Library.dll
+D:\Users\Omar\Github\E-MAT 3\Math Library\obj\Debug\Math Library.pdb
