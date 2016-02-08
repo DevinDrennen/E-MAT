@@ -9,29 +9,19 @@ The E-MAT, or the Electronic Motion Assistance Tool, is a suite of tools created
 
 
 **Features Planned:**
-
-  *Tremor Tool
-
-  *Frequencies
-  *Mangnitudes
-
-  *Linear and rotational
+* Tremor Tool
+  * Frequencies
+  * Mangnitudes
+  * Linear and rotational
 
 * Motion Capture Tool
-
   * Using multiple IMUs
-
   * Ball-chase activity
-
   * Real time feedback for the users
 
-
-
 **Hardware:**
-*
- [Razor IMU](https://www.sparkfun.com/products/10736)
-
-[Put picture of sensor here]
+*  [Razor IMU](https://www.sparkfun.com/products/10736)
 
 
-![Hardware](/Photos/hardware.jpg?raw=true)
+THe IMU with its case behind it.
+![Hardware](/Photos/hardware.JPG?raw=true)
