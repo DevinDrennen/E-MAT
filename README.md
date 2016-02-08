@@ -24,4 +24,5 @@ The E-MAT, or the Electronic Motion Assistance Tool, is a suite of tools created
 
 
 THe IMU with its case behind it.
+
 ![Hardware](/Photos/hardware.JPG?raw=true)
